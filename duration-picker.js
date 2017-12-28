@@ -2,7 +2,6 @@ angular.module('angularDurationPicker', [])
     .directive('durationPicker', function($filter) {
         return {
             restrict: 'A',
-            scope: {},
             require: '^ngModel',
             link: function(scope, element, attrs, ngModelCtrl) {
                 ngModelCtrl.$formatters.push(function(modelValue) {
