@@ -1,6 +1,6 @@
 {
   "name": "ui-duration-picker-angularjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Customised duration picker for angularjs",
   "main": "duration-picker.js",
   "scripts": {

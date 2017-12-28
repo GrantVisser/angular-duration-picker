@@ -1,4 +1,4 @@
-angular.module('angularDurationPicker', [])
+angular.module('uiDurationPickerAngularjs', [])
     .directive('durationPicker', function($filter) {
         return {
             restrict: 'A',
